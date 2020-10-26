@@ -1,0 +1,51 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: teal;
+  }
+}
+
+#navbar{
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+#welcome-section{
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2{
+  font-weight: 100;
+  text-align: center;
+}
+
+.card-content{
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover{
+  background-color: #ff5252;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.card{
+  margin: 25px;
+}
+
+.more{
+  margin-left:35px;
+  margin-bottom: 15px;
+}
